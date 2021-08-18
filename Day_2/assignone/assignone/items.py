@@ -8,5 +8,9 @@ import scrapy
 
 class AssignoneItem(scrapy.Item):
     # define the fields for your item here like:
-    # name = scrapy.Field()
-    pass
+    country_name = scrapy.Field()
+    total_cases = scrapy.Field()
+    new_cases = scrapy.Field()
+    total_deaths = scrapy.Field()
+    total_recovered = scrapy.Field()
+    active_cases = scrapy.Field()
